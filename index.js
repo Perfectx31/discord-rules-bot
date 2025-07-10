@@ -93,4 +93,4 @@ client.on('interactionCreate', async (interaction) => {
 
 startServer();
 
-client.login(process.env.TOKEN);
+client.login(RAILWAY_TOKEN);
