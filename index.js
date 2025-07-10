@@ -93,4 +93,4 @@ client.on('interactionCreate', async (interaction) => {
 
 startServer();
 
-client.login(token);
+client.login(process.env.TOKEN);
